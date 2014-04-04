@@ -1,0 +1,7 @@
+%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+{application,l2elog,
+             [{description,"Linux to Erlang logging bridge"},
+              {vsn,"0.0.1"},
+              {applications,[kernel,stdlib,lager]},
+              {mod, {l2elog_app, []}}
+              ]}.
